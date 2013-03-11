@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Income List"
+		android:textAppearance="?android:attr/textAppearanceSmall" 						
+		android:typeface="monospace"
+		android:background="#3B5998"
+		android:textColor="#ffffff"
+		android:gravity="center_horizontal"
+		android:textStyle="bold"
+		android:padding="5px"
+	/>
+	<LinearLayout
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5px"
+        android:background="#c7c7c7"
+        >
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Total:"
+		            android:textAppearance="?android:attr/textAppearanceSmall"
+		            android:textColor="#3b5998"
+		            android:textStyle="bold"
+		            android:typeface="monospace" 
+		            android:paddingRight="5px"
+		            />		
+			   	<TextView
+			   	    android:id="@+id/income_total"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Not Set"
+					android:textColor="#990000"
+					android:textAppearance="?android:attr/textAppearanceSmall" 
+					android:typeface="monospace"
+				/>	
+	</LinearLayout>
+    <ListView 
+        android:id="@+id/income_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:cacheColorHint="#ffffff"
+        android:dividerHeight="1px"
+		android:divider="#c7c7c7"
+        />
+</LinearLayout>

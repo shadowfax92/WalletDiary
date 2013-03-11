@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+   	android:background="#3b5998"
+   	android:clickable="true"
+   	android:duplicateParentState="true"
+   	android:layout_margin="10px"
+    >
+
+    <TextView
+        android:id="@+id/tab_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="unknown"
+        android:textColor="#ffffff" 
+        />
+
+</LinearLayout>
